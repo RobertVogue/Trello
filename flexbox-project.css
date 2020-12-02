@@ -1,9 +1,35 @@
 /* Write your CSS here. */
 
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
 
+.header-nav__container {
+  background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 
+#alerts {
+  background-color: #CF513D;
+}
 
+@media screen and (max-width: 730px) {
+  /* Hide the header search input field. */
+  /* Hide the "Boards" text, but leave the boards icon. */
+  #search, .boards-label {
+    display: none;
+  }
+
+}
 
 
 
